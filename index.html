@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <h1>Hello, world!</h1>
+        <h2>subheading</h2>
+        <h3>another subheading</h3>
+        <h4>another subheading</h4>
+        <h5>another subheading</h5>
+        <h6>another subheading</h6>
+        <hr>
+        <h1 class="display-1">Display 1</h1>
+        <h2 class="display-2">Display 2</h2>
+        <h3 class="display-3">Display 3</h3>
+        <h4 class="display-4">Display 4</h4>
+        <h5 class="display-5">Display 5</h5>
+        <h6 class="display-6">Display 6</h6>
+        <hr>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <strong>Ipsum voluptate totam</strong> optio ratione, <em>soluta magni ad tempore</em>, omnis quo eius dicta minima alias, <mark>architecto maxime</mark> voluptas asperiores. Sint, accusantium illo.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo eaque architecto id laboriosam unde accusantium, itaque ex. Amet numquam <del>veritatis repellendus</del> ipsa molestiae, quod illo adipisci, error deleniti esse eveniet.</p>    
+        <p>To restart pc use <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>del</kbd></p>
+        <p>Let's take <code>&lt;br/&gt;</code></p>
+        <hr/>
+        <h2>Text alignment</h2>
+        <p class="text-start">This is left</p>
+        <p class="text-center">This is center</p>
+        <p class="text-end">This is right</p>
+
+        <!-- In boostrap 5 there is no text-justify, if you see it is boostrap 3 or 4 -->
+        <hr/>
+        <h2>List</h2>
+        <!-- Unordered List / Bullet -->
+        <ul>
+            <li>This is first item</li>
+            <li>This is second item</li>
+            <li>This is third item</li>    
+        </ul>
+
+        <!-- Ordered List / Bullet -->
+        <ol>
+            <li>This is first item</li>
+            <li>This is second item</li>
+            <li>This is third item</li>  
+        </ol>
+
+        <!-- List Inline -->
+         <ul class="list-inline">
+            <li class="list-inline-item">This is first item</li>
+            <li class="list-inline-item">This is second item</li>
+            <li class="list-inline-item">This is third item</li>  
+         </ul>
+
+         <!-- Unstyled List -->
+          <ul class="list-unstyled">
+            <li>This is first item</li>
+            <li>This is second item</li>
+            <li>This is third item</li> 
+          </ul>
+        <hr/>
+        <h2>Color</h2>
+        <p class="text-primary">This is primary color</p>
+        <p class="text-secondary">This is secondary color</p>
+        <p class="text-success">This is success color</p>
+        <p class="text-warning">This is warning color</p>
+        <p class="text-danger">This is danger color</p>
+        <p class="text-info">This is info color</p>
+        <p class="bg-dark text-light">This is bg dark text light</p>
+        <p class="bg-danger text-warning">This is Selangor colour</p>
+        <p class="bg-success text-warning">This is Kedah colour</p>
+
+        <hr/>
+        <h2>Buttons</h2>
+        <button class="btn btn-primary">Primary Button</button>
+        <button class="btn btn-secondary">Secondary Button</button>
+        <button class="btn btn-danger">Danger Button</button>
+        <button class="btn btn-warning text-success">Button Kedah</button>
+        <button class="btn btn-dark">Button Dark</button>
+        <a href="https://www.google.com.my" class="btn btn-primary">Go to Google</a>
+        <button class="btn btn-outline-primary">Primary Outline</button>
+        <button class="btn btn-outline-secondary">Secondary Outline</button>
+        <button class="btn btn-outline-secondary btn-lg">Secondary large button</button>
+        <button class="btn btn-outline-secondary btn-sm">Secondary small button</button>
+
+        <hr/>
+        <h2>Table</h2>
+        <table class="table table-bordered table-hover table-striped">
+            <tr>
+                <th class="bg-success text-light">Name</th>
+                <th class="bg-success text-light">Phone</th>
+                <th class="bg-success text-light">Email</th>
+            </tr>
+            <tr>
+                <td>Wan</td>
+                <td>0122222</td>
+                <td>wan@gmail</td>
+            </tr>
+            <tr>
+                <td>Siti</td>
+                <td>013</td>
+                <td>yahoo.com</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>010</td>
+                <td>yahoo.com</td>
+            </tr>
+        </table>
+
+        <hr/>
+        <h2>Forms</h2>
+        <input type="text" placeholder="ENter your name" class="form-control mb-3">
+        <input type="text" placeholder="ENter your email" class="form-control mb-3">
+        <button class="btn btn-primary">Send</button>
+
+        <hr/>
+        <h2>Form Exercise</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nameForm" class="form-label">Name</label>
+                <input type="text" class="form-control" id="nameForm" placeholder="Enter your name">
+              </div>
+              <div class="mb-3">
+                <label for="emailForm" class="form-label">Email Address</label>
+                <input type="text" class="form-control" id="emailForm" placeholder="Enter your email">
+              </div>
+              <div class="mb-3">
+                <label for="messageTextArea" class="form-label">Message</label>
+                <textarea class="form-control" id="messageTextArea" rows="3"></textarea>
+              </div>
+              <div class="mb-3">
+              <select class="form-select" aria-label="Gender">
+                <option selected>Select Gender</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+              </select>
+              </div>
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Upload file</label>
+                <input class="form-control" type="file" id="formFile">
+                <p class="text-secondary"><small>Only png and jpg is allowed</small></p>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Check me out
+                </label>
+              </div>
+              <button class="btn btn-outline-primary">Send</button>
+        </form>
+
+        <hr/>
+        <h2>Bootstrap grid system</h2>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h3>Kotak Kiri</h3>
+                <p>Loreeeem.........</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h3>Kotak Kanan</h3>
+                <p>Loreeeem.........</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                 <p>Loreeeem.........</p>
+            </div>
+            <div class="ccol-md-3 col-sm-6">
+                <p>Loreeeem.........</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <p>Loreeeem.........</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <p>Loreeeem.........</p>
+            </div>
+        </div>
+        <hr/>
+        <div class="row">
+            <div class="col-8">
+                 <p>Loreeeem.........</p>
+            </div>
+            <div class="col-4">
+                <p>Loreeeem.........</p>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
